@@ -1,0 +1,23 @@
+#TODO : change the number of keypoints in the script to use the 5th extra point (at the moment the number 4 is hardcoded)
+INPUT_PATH:
+  - "../DATA/second_session/Haltère/Trimmed/c_23116_81/"
+  - "../DATA/second_session/Haltère/Trimmed/c_23116_85/"
+  - "../DATA/second_session/Haltère/Trimmed/c_23116_87/"
+  - "../DATA/second_session/Haltère/Trimmed/c_23116_93-2/"
+  - "../DATA/second_session/Haltère/Trimmed/c_23116_96-2/"
+ANNOTATIONS_PATH:
+  - "../ANNOTATIONS/c_23116_81.mp4-.xml"
+  - "../ANNOTATIONS/c_23116_85.mp4-.xml"
+  - "../ANNOTATIONS/c_23116_87.mp4-.xml"
+  - "../ANNOTATIONS/c_23116_93.mp4-.xml"
+  - "../ANNOTATIONS/c_23116_96.mp4-.xml"
+OBJECT: "haltere" # repere or haltere
+OUTPUT_PATH: "CREATED_BOP_DATASETS/"
+MESH_PATH: "../MESH/haltere/haltere.json"
+MODEL_PATH: "../MESH/haltere/"
+N_KEYPOINTS: 5
+INTRINSICS_PATH: '../CALIBRATION/intrinsics_haltere_bigboard.json'
+MASK_LINE_THICKNESS: 10
+FOR_INFERENCE: False
+DEBUG: True
+

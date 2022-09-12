@@ -1,0 +1,21 @@
+
+INPUT_PATH:
+  - "../DATA/second_session/Repère/GH010491/"
+  - "../DATA/second_session/Repère/GH010493/"
+  - "../DATA/second_session/Repère/GH010504/"
+  - "../DATA/second_session/Repère/GH010505/"
+  - "../DATA/second_session/Repère/GH010509/"
+ANNOTATIONS_PATH:
+  - "../ANNOTATIONS/gh010491.mp4-.xml"
+  - "../ANNOTATIONS/gh010493.mp4-.xml"
+  - "../ANNOTATIONS/gh010504.mp4-.xml"
+  - "../ANNOTATIONS/gh010505.mp4-.xml"
+  - "../ANNOTATIONS/gh010509.mp4-.xml"
+OUTPUT_PATH: "CREATED_BOP_DATASETS/"
+MESH_PATH: "../MESH/repere/repere_37.json"
+MODEL_PATH: "../MESH/repere/"
+N_KEYPOINTS: 4
+INTRINSICS_PATH: '../CALIBRATION/intrinsics.json'
+MASK_LINE_THICKNESS: 10
+FOR_INFERENCE: False
+DEBUG: False
